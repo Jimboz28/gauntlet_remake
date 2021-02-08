@@ -19,10 +19,6 @@ public class scr_Projectile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.magnitude > 1000.0f)
-        {
-            Destroy(gameObject);
-        }
     }
     void OnCollisionEnter2D(Collision2D other)
     {
