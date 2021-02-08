@@ -893,7 +893,7 @@ ScriptsOnlyBuild:
     className: scr_Projectile
   - hash:
       serializedVersion: 2
-      Hash: e233ba59a12b2e823c8eb5e8828739fe
+      Hash: 0da52b2fbba685624cf9f5458a0ffeeb
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: scr_PlayerController

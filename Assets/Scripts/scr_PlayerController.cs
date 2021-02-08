@@ -9,6 +9,7 @@ public class scr_PlayerController : MonoBehaviour
     float horizontal; 
     float vertical;
     public float speed = 3.0f;
+    public float force = 300;
 
     // health variables
 
@@ -160,7 +161,7 @@ public class scr_PlayerController : MonoBehaviour
     GameObject projectileObject = Instantiate(ProjectilePrefab, rigidbody2d.position + Vector2.up * 0.5f, Quaternion.identity);
 
     scr_Projectile projectile = projectileObject.GetComponent<scr_Projectile>();
-    projectile.Launch(lookDirection, 300);
+    projectile.Launch(lookDirection, force);
     canShoot = 0;
     animator.SetTrigger("Launch");
     Debug.Log ("bullets on hand: " + canShoot);

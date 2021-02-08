@@ -17,6 +17,7 @@ MonoBehaviour:
     - Assets/Prefabs/Elf Projectile.prefab
     - Assets/Prefabs/Elf.prefab
     - Assets/Prefabs/Enemy2.prefab
+    - Assets/Prefabs/Spawner.prefab
     - Assets/Prefabs/Valkyrie Projectile.prefab
     - Assets/Prefabs/Valkyrie.prefab
     - Assets/Prefabs/Warrior Projectile.prefab
@@ -26,12 +27,14 @@ MonoBehaviour:
     - Assets/Scenes/Level_1.unity
     - Assets/Scenes/Level_2.unity
     - Assets/Scripts/scr_Enemy2.cs
+    - Assets/Scripts/scr_HealthPickup.cs
+    - Assets/Scripts/scr_PlayerController.cs
     - Assets/Scripts/scr_Projectile.cs
     - Assets/Scripts/scr_spawner.cs
     - Assets/Sprites/Animation/Valkyrie/Valkyrie.controller
     - ProjectSettings/DynamicsManager.asset
     - 
-    m_Values: 0000000000000000000000000000000000
+    m_Values: 0000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

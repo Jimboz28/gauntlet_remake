@@ -147,6 +147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 6
+  force: 10
   maxHealth: 350
   currentHealth: 0
   lives: 3
@@ -154,7 +155,6 @@ MonoBehaviour:
   key: 0
   ProjectilePrefab: {fileID: 4820016817743781910, guid: cc90f168085ffdc469672b90cce9542e, type: 3}
   canShoot: 0
-  pSpeed: 0
 --- !u!95 &2391417512111583008
 Animator:
   serializedVersion: 3

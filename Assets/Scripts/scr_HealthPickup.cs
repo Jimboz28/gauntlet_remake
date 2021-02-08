@@ -13,7 +13,7 @@ public class scr_HealthPickup : MonoBehaviour
        {
            if (controller.health < controller.maxHealth)
            {
-           controller.ChangeHealth(1);
+           controller.ChangeHealth(50);
            Destroy (gameObject);
 
            //controller.PlaySound(collectedClip);
