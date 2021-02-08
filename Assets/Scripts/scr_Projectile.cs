@@ -19,6 +19,11 @@ public class scr_Projectile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log (transform.position.magnitude);    
+            if (transform.position.magnitude > 50.0f)
+        {
+            NoBullets();
+        }
     }
     void OnCollisionEnter2D(Collision2D other)
     {

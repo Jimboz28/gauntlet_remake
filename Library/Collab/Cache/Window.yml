@@ -23,13 +23,15 @@ MonoBehaviour:
     - Assets/Prefabs/Warrior.prefab
     - Assets/Prefabs/Wizard Projectile.prefab
     - Assets/Prefabs/Wizard.prefab
+    - Assets/Scenes/Level_1.unity
     - Assets/Scenes/Level_2.unity
     - Assets/Scripts/scr_Enemy2.cs
     - Assets/Scripts/scr_Projectile.cs
     - Assets/Scripts/scr_spawner.cs
     - Assets/Sprites/Animation/Valkyrie/Valkyrie.controller
+    - ProjectSettings/DynamicsManager.asset
     - 
-    m_Values: 000000000000000000000000000000
+    m_Values: 0000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
