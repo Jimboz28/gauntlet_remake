@@ -14,11 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Prefabs/Elf Projectile.prefab
+    - Assets/Prefabs/Elf.prefab
     - Assets/Prefabs/Enemy2.prefab
+    - Assets/Prefabs/Valkyrie Projectile.prefab
+    - Assets/Prefabs/Valkyrie.prefab
+    - Assets/Prefabs/Warrior Projectile.prefab
+    - Assets/Prefabs/Warrior.prefab
+    - Assets/Prefabs/Wizard Projectile.prefab
+    - Assets/Prefabs/Wizard.prefab
+    - Assets/Scenes/Level_2.unity
     - Assets/Scripts/scr_Enemy2.cs
+    - Assets/Scripts/scr_Projectile.cs
     - Assets/Scripts/scr_spawner.cs
+    - Assets/Sprites/Animation/Valkyrie/Valkyrie.controller
     - 
-    m_Values: 01010101
+    m_Values: 000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

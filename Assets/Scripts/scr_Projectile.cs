@@ -49,7 +49,7 @@ public class scr_Projectile : MonoBehaviour
 void NoBullets()
 {
     scr_PlayerController p = GameObject.FindGameObjectWithTag("Player").GetComponent<scr_PlayerController>();
-     if (p!=null)
+     if ((p!=null) && (p.canShoot == 0))
      {
      p.CanShoott(1);
      }

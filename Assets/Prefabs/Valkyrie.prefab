@@ -224,6 +224,7 @@ MonoBehaviour:
   key: 0
   ProjectilePrefab: {fileID: 2324746194281806102, guid: 3643b3e2815910b42990f067799eb6d6, type: 3}
   canShoot: 0
+  pSpeed: 0
 --- !u!95 &-6641973362737047299
 Animator:
   serializedVersion: 3
